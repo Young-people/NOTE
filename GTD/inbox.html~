@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>inbox</title>
+<!-- 2017-08-03 四 11:56 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="com4loves" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">inbox</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-0-1">0.1. Tue Jul  4 11:10:06 2017 (程序员所积累的编程知识在十年后将有一半没用。)</a></li>
+<li><a href="#sec-0-2">0.2. Tue Jul  4 11:33:39 2017 (学英语)</a></li>
+<li><a href="#sec-0-3">0.3. Tue Jul  4 11:34:52 2017 (28日还信用卡)</a></li>
+<li><a href="#sec-0-4">0.4. Tue Jul  4 11:35:01 2017 (办居住证)</a></li>
+<li><a href="#sec-0-5">0.5. TODO: Thu Jul 13 18:10:43 2017 (小姐姐月底或月初到北京。)</a></li>
+</ul>
+</li>
+<li><a href="#sec-1">1. <span class="todo TODO">TODO</span> 补脑</a></li>
+<li><a href="#sec-2">2. 猫</a>
+<ul>
+<li><a href="#sec-2-1">2.1. <span class="todo TODO">TODO</span> 取猫</a></li>
+<li><a href="#sec-2-2">2.2. <span class="todo TODO">TODO</span> 猫窝</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1. <span class="todo TODO">TODO</span> 收快递 <code>[%]</code></a></li>
+<li><a href="#sec-2-2-2">2.2.2. <span class="todo TODO">TODO</span> 给快递摆上，多余的东西堆上</a></li>
+<li><a href="#sec-2-2-3">2.2.3. <span class="todo TODO">TODO</span> 屏风固定到沙发上</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-3">2.3. <span class="todo TODO">TODO</span> 猫病</a>
+<ul>
+<li><a href="#sec-2-3-1">2.3.1. <span class="todo TODO">TODO</span> 洗猫</a></li>
+<li><a href="#sec-2-3-2">2.3.2. <span class="todo TODO">TODO</span> 杀虫</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-4">2.4. <span class="todo TODO">TODO</span> 报答洗🐱之恩</a>
+<ul>
+<li><a href="#sec-2-4-1">2.4.1. <span class="todo TODO">TODO</span> 酸菜炖排骨</a></li>
+<li><a href="#sec-2-4-2">2.4.2. <span class="todo TODO">TODO</span> 红烧肉</a></li>
+<li><a href="#sec-2-4-3">2.4.3. <span class="todo TODO">TODO</span> 可乐鸡翅</a></li>
+<li><a href="#sec-2-4-4">2.4.4. <span class="todo TODO">TODO</span> 清炒娃娃菜</a></li>
+<li><a href="#sec-2-4-5">2.4.5. <span class="todo TODO">TODO</span> 小鸡炖蘑菇（汤）</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-0-1" class="outline-3">
+<h3 id="sec-0-1"><span class="section-number-3">0.1</span> Tue Jul  4 11:10:06 2017 (程序员所积累的编程知识在十年后将有一半没用。)</h3>
+<div class="outline-text-3" id="text-0-1">
+<p>
+程序员所积累的编程知识在十年后将有一半没用。
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-0-2" class="outline-3">
+<h3 id="sec-0-2"><span class="section-number-3">0.2</span> Tue Jul  4 11:33:39 2017 (学英语)</h3>
+<div class="outline-text-3" id="text-0-2">
+<p>
+学英语
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-0-3" class="outline-3">
+<h3 id="sec-0-3"><span class="section-number-3">0.3</span> Tue Jul  4 11:34:52 2017 (28日还信用卡)</h3>
+<div class="outline-text-3" id="text-0-3">
+<p>
+28日还信用卡
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-0-4" class="outline-3">
+<h3 id="sec-0-4"><span class="section-number-3">0.4</span> Tue Jul  4 11:35:01 2017 (办居住证)</h3>
+<div class="outline-text-3" id="text-0-4">
+<p>
+办居住证
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-0-5" class="outline-3">
+<h3 id="sec-0-5"><span class="section-number-3">0.5</span> TODO: Thu Jul 13 18:10:43 2017 (小姐姐月底或月初到北京。)</h3>
+<div class="outline-text-3" id="text-0-5">
+<p>
+小姐姐月底或月初到北京。
+约饭~
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> 补脑</h2>
+<div class="outline-text-2" id="text-1">
+<dl class="org-dl">
+<dt> 豆类 </dt><dd>豆浆 豆腐脑 芝麻
+</dd>
+<dt> 海鲜类 </dt><dd>鱼肉
+</dd>
+<dt> 水果 </dt><dd>橘子 香蕉 菠萝
+</dd>
+<dt> 肉类 </dt><dd>鸡蛋
+</dd>
+<dt> 蔬菜 </dt><dd>菠菜 洋葱 胡萝卜
+</dd>
+<dt> 主食 </dt><dd>玉米 小米 牛奶
+</dd>
+<dt> 坚果 </dt><dd>核桃
+</dd>
+<dt> 生活 </dt><dd>健身 
+</dd>
+</dl>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 猫</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> 取猫</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+周五晚上 顺义
+需要考虑确定一下怎么回来，公交，打车
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> <span class="todo TODO">TODO</span> 猫窝</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> <span class="todo TODO">TODO</span> 收快递 <code>[%]</code></h4>
+<div class="outline-text-4" id="text-2-2-1">
+</div><ol class="org-ol"><li><a id="sec-2-2-1-1" name="sec-2-2-1-1"></a>[X] 吹风机<br  /></li>
+<li><a id="sec-2-2-1-2" name="sec-2-2-1-2"></a>[] 太空包<br  /></li>
+<li><a id="sec-2-2-1-3" name="sec-2-2-1-3"></a>[X] 土猫宠物店<br  /></li>
+<li><a id="sec-2-2-1-4" name="sec-2-2-1-4"></a>[X] 猫犬的乐园店<br  /></li>
+<li><a id="sec-2-2-1-5" name="sec-2-2-1-5"></a>[X] 芬芬宠物店<br  /></li>
+<li><a id="sec-2-2-1-6" name="sec-2-2-1-6"></a>[X] 虎头桥家具<br  /></li>
+<li><a id="sec-2-2-1-7" name="sec-2-2-1-7"></a>[X] 城北老陈宠物<br  /></li>
+<li><a id="sec-2-2-1-8" name="sec-2-2-1-8"></a>[X] 疯狂句子宠物<br  /></li>
+<li><a id="sec-2-2-1-9" name="sec-2-2-1-9"></a>[X] 马甸老赵<br  /></li>
+<li><a id="sec-2-2-1-10" name="sec-2-2-1-10"></a>[X] 乐爽宠物<br  /></li>
+<li><a id="sec-2-2-1-11" name="sec-2-2-1-11"></a>[] 电磁炉<br  /></li>
+<li><a id="sec-2-2-1-12" name="sec-2-2-1-12"></a>[X] 电压力锅<br  /></li>
+<li><a id="sec-2-2-1-13" name="sec-2-2-1-13"></a>[X] 贝甜旗舰店<br  /></li></ol>
+</div>
+<div id="outline-container-sec-2-2-2" class="outline-4">
+<h4 id="sec-2-2-2"><span class="section-number-4">2.2.2</span> <span class="todo TODO">TODO</span> 给快递摆上，多余的东西堆上</h4>
+</div>
+<div id="outline-container-sec-2-2-3" class="outline-4">
+<h4 id="sec-2-2-3"><span class="section-number-4">2.2.3</span> <span class="todo TODO">TODO</span> 屏风固定到沙发上</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+考虑铁丝绑到沙发腿上，上面钉钉子再上铁丝
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> <span class="todo TODO">TODO</span> 猫病</h3>
+<div class="outline-text-3" id="text-2-3">
+</div><div id="outline-container-sec-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1"><span class="section-number-4">2.3.1</span> <span class="todo TODO">TODO</span> 洗猫</h4>
+<div class="outline-text-4" id="text-2-3-1">
+</div><ol class="org-ol"><li><a id="sec-2-3-1-1" name="sec-2-3-1-1"></a>交给吴彤吧<br  /></li></ol>
+</div>
+<div id="outline-container-sec-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2"><span class="section-number-4">2.3.2</span> <span class="todo TODO">TODO</span> 杀虫</h4>
+<div class="outline-text-4" id="text-2-3-2">
+</div><ol class="org-ol"><li><a id="sec-2-3-2-1" name="sec-2-3-2-1"></a>交给吴彤吧<br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> <span class="todo TODO">TODO</span> 报答洗🐱之恩</h3>
+<div class="outline-text-3" id="text-2-4">
+</div><div id="outline-container-sec-2-4-1" class="outline-4">
+<h4 id="sec-2-4-1"><span class="section-number-4">2.4.1</span> <span class="todo TODO">TODO</span> 酸菜炖排骨</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<p>
+东北酸菜 200g
+猪排骨 500g
+细粉条 100g
+豆腐 100g
+油适量盐适量白胡椒粉适量鸡精适量葱适量姜适量香油适量八角1粒干辣椒2粒桂皮1块
+准备好所有食材。
+酸菜洗净切成丝备用。
+豆腐切成片。
+粉条提前泡软。
+准备好干辣椒和 八角 桂皮。
+葱切段，姜切片。
+排骨斩成小块，放入冷水中，烧开后捞出。
+焯水的排骨放入汤锅中，加入适量的热水。
+加入葱姜 八角 桂皮，大火烧开，转小火煮至40分钟。
+另起锅，加入油爆香干辣椒。
+下入酸菜丝煸炒片刻。
+倒入煮排骨的汤汁。
+烧开后，加入排骨。
+再加入粉条和豆腐片 盐。
+大火烧开，转中火炖至20分钟。
+关火后撒上葱碎，淋入香油加入鸡精调味即可。
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-4-2" class="outline-4">
+<h4 id="sec-2-4-2"><span class="section-number-4">2.4.2</span> <span class="todo TODO">TODO</span> 红烧肉</h4>
+<div class="outline-text-4" id="text-2-4-2">
+<p>
+主料带皮五花肉400g 
+辅料
+食用油少量
+盐少量
+味精适量
+料酒适量
+姜汁数滴
+生抽适量
+老抽适量
+红糖1勺
+肉蔻2个
+桂皮1根
+川椒
+2个香叶
+3片八角
+3个 
+</p>
+
+<p>
+带皮五花肉洗干净放人沸水锅中汆水片刻捞出（这样便于切块）
+切成大小适中的块状，再次放入沸水锅中汆去血水，捞出沥干水分
+锅中少油，放入红糖、生抽、老抽中火熬到糖起泡
+放入葱段，倒入姜汁和料酒煸炒出香味
+倒入五花肉翻炒均匀至每块肉都上色，继续煸炒，要让五花肉的油脂煸出，将煸出的油倒出
+锅中填入适量清水，将调料装入调料包放入锅中，香叶、桂皮也一起放入，撒少许盐大火烧沸，转小火烧1个半小时，待肉烧透汤汁浓稠，撒入味精出锅即可
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-4-3" class="outline-4">
+<h4 id="sec-2-4-3"><span class="section-number-4">2.4.3</span> <span class="todo TODO">TODO</span> 可乐鸡翅</h4>
+</div>
+<div id="outline-container-sec-2-4-4" class="outline-4">
+<h4 id="sec-2-4-4"><span class="section-number-4">2.4.4</span> <span class="todo TODO">TODO</span> 清炒娃娃菜</h4>
+</div>
+<div id="outline-container-sec-2-4-5" class="outline-4">
+<h4 id="sec-2-4-5"><span class="section-number-4">2.4.5</span> <span class="todo TODO">TODO</span> 小鸡炖蘑菇（汤）</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: com4loves</p>
+<p class="date">Created: 2017-08-03 四 11:56</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
