@@ -1,0 +1,61 @@
+最近做网络游戏，一直也没有研究过ByteBuffer怎么回事。
+
+今天看了下， 做个记录。
+
+举例：
+
+#+BEGIN_SRC lua
+        //约定：不管什么机器，约定使用32位，多的丢弃，不允许使用32位不能表示的值
+	//写
+	void ByteBuffer::writeInt( int val )
+	{
+	        //检查内存，如果加入int的长度后m_buffer长度不够，重新开辟2倍内存
+		ensureCapacity( INT_SIZE );
+	        //转为无符号整形
+		unsigned int uval = val;  //脱裤子放屁，读取的时候还是用int保存的
+
+	        //int转char，保存低8位，32位int转为4个byte保存
+		m_buffer[ m_bufferSize  ]    = ( char )( uval >> 24 );
+		m_buffer[ m_bufferSize + 1 ] = ( char )( uval >> 16 );
+		m_buffer[ m_bufferSize + 2 ] = ( char )( uval >> 8  );
+		m_buffer[ m_bufferSize + 3 ] = ( char )( uval >> 0);
+
+		m_bufferSize += INT_SIZE;
+	}
+	//读
+	int ByteBuffer::readInt( )
+	{
+	/*
+	* &0xFF是为了类型转换，避免移位造成值溢出而丢失，同时&会使0xFF低8位以外的值置0，然后位移使8位值放在正确的位置上，准备拼接
+	* 此操作只有在int值大于255有效，否则只有低8位有值， |0值不会改变，可以直接赋值给int
+	* 类型转换后，四个数分别在不同的四个8位上有值，|0值不会改变，所以可以用|把四个byte拼接成int值
+	*/
+		int val =
+			((m_buffer[m_readPosition + 3] & 0xFF) << 0) |
+			((m_buffer[m_readPosition + 2] & 0xFF) << 8)  |
+			((m_buffer[m_readPosition + 1] & 0xFF) << 16) |
+			((m_buffer[m_readPosition + 0] & 0xFF) << 24);
+
+		m_readPosition += INT_SIZE;
+
+		return val;
+	}
+	//字符串读写
+	/*
+	* 字符串长度写在前面，方便取字符串，不然不知道长度不能取
+	* 取值也是，需要先去到前面的2位短整型，作为字符串长度再取值
+	*/
+	void ByteBuffer::writeUTF8( const std::string& val )
+	{
+		unsigned  int utf8Size  = val.size( );
+		writeShort( utf8Size );
+
+		ensureCapacity(  utf8Size );
+		memcpy( m_buffer + m_bufferSize  , val.c_str( ) , utf8Size );
+
+		m_bufferSize += ( utf8Size  );
+	}
+
+	//自己定义服务器协议时，实现中就是写入顺序就是读取顺序，顺序不对读取就会出错。
+
+#+END_SRC
