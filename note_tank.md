@@ -50,3 +50,11 @@ btn_ | Buttonlbl_ |lbl_ | img_ | spr_ | node_ |pnl_ | var_ | chk_ | pag_ | lod_ 
 1. tapk = ts && te && cd /Users/Wangkun/work/tank_work/tank_encrypt && cocos compile -p android -m release —compile-script 0  
 2. netManager中ip要改成http  
 3. debug。lua中屏蔽sdk  
+
+类目| 内容
+----|-
+1. |保护罩
+4. |战利品，金币消耗增加
+5. |野怪被打死删除野怪
+6. |召回，加速
+8. |UI控件本地化
