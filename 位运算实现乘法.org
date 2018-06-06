@@ -1,0 +1,28 @@
+* 位运算实现乘法
+** 思路
+    - 比如a * 9 = a * 8 + a * 1
+    - a * 8 = a * 2 * 8 / 2
+    - a * 2 = a << 1; 8 / 2 = 8 >> 1;
+        
+** 实现
+#+BEGIN_SRC c++
+int multi(int a,int b)
+{
+    int tmp=0;
+    if(a<b){tmp=a;a=b;b=tmp;tmp=0;} // 分解较小的数
+    while(b)
+    {
+        if(b&0x1) tmp+=a;
+        a<<=1;
+        b>>=1;
+    }
+    return tmp;
+}
+int main()
+{
+    int a,b;
+    while(cin>>a>>b)
+    cout<<multi(a,b)<<endl;
+    return 1;
+}
+#+END_SRC
